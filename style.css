@@ -87,12 +87,7 @@
     height: 300px;
 }
 
-.imagen-detalle-flores-rosado {
-    position: absolute;
-    right: -150px;
-    top: 50px;
-    height: 300px;
-}
+
 
 .tempranillo-inner-section {
     display: grid;
@@ -116,6 +111,14 @@
     place-items: center;
     position: relative;
     padding: 100px 0px;
+    overflow: hidden;
+}
+
+.imagen-detalle-flores-rosado {
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    height: 300px;
 }
 
 .section-tempranillo h3 {
@@ -133,4 +136,27 @@
     font-size: 18px;
     color: #333366;
 
+}
+
+/* Bobal Rosaro Section */
+
+.section-bobal-rosado {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.section-bobal-rosado-red {
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.section-bobal-rosado-white {
+    padding-top: 60px;
+}
+
+.image-ramito {
+    position: absolute;
+    height: 900px;
 }
