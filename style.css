@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ramito-video-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.ramito-violet-container {
+    /* width: 100%;
+    height: 100vh; */
+    position: relative;
+    overflow: hidden;
+    background-color: #333366;
+    display: flex;
+    flex-direction: column;
+}
+
+.ramito-violet-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ramito-violet-container-header ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5em;
+    width: 900px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+.ramito-video-container-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ramito-violet-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ramito-violet-main-text {
+    padding: 100px 0px;
+    margin-bottom: 20px;
+}
+
+.ramito-violet-container p {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.9em;
+    width: 800px;
+    text-align: center;
+}
+
+.organica-column {
+    position: relative;
+}
+
+.ramito-violet-container h3 {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 130px;
+    margin: 0;
+    line-height: 110px;
+    margin: -80px 0px;
+    position: absolute;
+}
+
+.imagen-detalle-flores {
+    position: absolute;
+    left: -150px;
+    top: 50%;
+    height: 300px;
+}
+
+.imagen-detalle-flores-rosado {
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    height: 300px;
+}
+
+.tempranillo-inner-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+}
+
+.ramito-imagen-organica {
+    width: 100%;
+}
+
+.ramito-imagen-botella {
+    height: 700px;
+}
+
+/* Tempranillo Section */
+
+.section-tempranillo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.section-tempranillo h3 {
+    font-size: 80px;
+    margin: 0;
+    line-height: 70px;
+    color: #333366;
+    font-weight: black;
+    letter-spacing: -3px;
+
+}
+
+.section-tempranillo p {
+    width: 300px;
+    font-size: 18px;
+    color: #333366;
+
+}
