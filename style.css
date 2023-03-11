@@ -93,6 +93,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     place-items: center;
+    background-image: linear-gradient(180deg, #333366 50%, white 50%);
 }
 
 .ramito-imagen-organica {
@@ -159,4 +160,82 @@
 .image-ramito {
     position: absolute;
     height: 900px;
+}
+
+/* Section Navegar */
+
+.section-navegar {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.section-navegar .imagen-barco {
+    display: flex;
+    justify-content: end;
+}
+
+.section-navegar .image-navegar {
+    height: 900px;
+}
+
+.section-navegar .ramito-navegar-imagen-botella {
+    height: 800px;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+
+/* Section Verdejo */
+
+.section-verdeo-sauvignon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(180deg, green 50%, white 50%);
+    padding-top: 200px;
+}
+
+.section-verdeo-sauvignon .image-navegar {
+    height: 900px;
+}
+
+.logo-ramito-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-verdeo-sauvignon .logo-ramito-cuadrado {
+    padding-top: 400px;
+}
+
+
+/* Section Raices Ibericas */
+
+.section-raices-ibericas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+}
+
+.section-raices-ibericas .image-raices {
+    height: 600px;
+}
+
+.section-raices-ibericas .logo-raices-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Section Mapa */
+
+.section-mapa {
+    background-image: url(./assets/mapaDeVinos-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    overflow: hidden;
 }
