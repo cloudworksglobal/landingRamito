@@ -27,6 +27,7 @@
 .ramito-violet-container-header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .ramito-violet-container-header ul {
@@ -40,6 +41,8 @@
     width: 900px;
     text-transform: uppercase;
     border-bottom: 1px solid white;
+    padding-left: 270px;
+    text-decoration: none;
 }
 
 .ramito-video-container-logo {
