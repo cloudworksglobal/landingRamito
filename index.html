@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>  
 
@@ -16,52 +17,48 @@
 </section>
 
 <section class="ramito-violet-container">
-    <div class="ramito-violet-container-header">
+  <div class="ramito-violet-container-header">
     <img src="./assets/LogoRamitoBlanco-01.png" alt="logo-ramito-negro" class="ramito-logo-blanco">
-    <div>
-        <input type="checkbox" id="nav-menu1">
-        <label id="nav-icon1" for="nav-menu1">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-    <ul>
+    <div class="mobile-menu-icon">
+      <input type="checkbox" id="nav-menu1">
+      <label id="nav-icon1" for="nav-menu1">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="mobile-menu">
         <li><a href="#">Vinos</a></li>
         <li><a href="#">Tienda</a></li>
         <li><a href="#">Raices Ibericas</a></li>
         <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+    <ul class="desktop-menu">
+      <li><a href="#">Vinos</a></li>
+      <li><a href="#">Tienda</a></li>
+      <li><a href="#">Raices Ibericas</a></li>
+      <li><a href="#">Contacto</a></li>
     </ul>
-
+  </div>
+  <div class="ramito-violet-wrapper">
+    <div class="ramito-violet-main-text">
+      <p> España es líder mundial en superficie de viñedo ecológico con casi el 27% de la producción mundial. </p>
+      <p>Entre 2009 y 2019, la superficie de viñedo ecológico casi se ha triplicado, hasta las 121.279 hectáreas.</p>
+      <p>Ramito, nuestra línea ecológica, combina variedades de uvas autóctonas españolas con un toque de uva internacional.</p>
     </div>
-    <div class="ramito-violet-wrapper">   
-    <!-- <img src="./assets/LogoRamitoNegro-01.png" alt="logo-ramito-negro" class="ramito-video-container-logo"> -->
-
-        <div class="ramito-violet-main-text">
-        <p> España es líder mundial en superficie de viñedo ecológico
-    con casi el 27% de la producción mundial. </p>
-        <p>Entre 2009 y 2019, la superficie de viñedo ecológico casi se
-    ha triplicado, hasta las 121.279 hectáreas.</p>
-        <p>Ramito, nuestra línea ecológica, combina variedades de
-    uvas autóctonas españolas con un toque de uva
-    internacional.
-        </p>
-        </div>
+  </div>
+  <div class="tempranillo-inner-section">
+    <div>
+      <img src="./assets/ramito_verdejo.png" alt="ramito-imagen-organica" class="ramito-imagen-botella">
+      <img src="./assets/flowers.png" alt="detalle-flores" class="imagen-detalle-flores">
     </div>
-
-    <div class="tempranillo-inner-section">   
-        <div>
-            <img src="./assets/ramito_verdejo.png" alt="ramito-imagen-organica"  class="ramito-imagen-botella">
-            <img src="./assets/flowers.png" alt="detalle-flores" class="imagen-detalle-flores">
-
-        </div>
-        <div class="organica-column">   
-            <h3>Orgánica <br> por naturaleza</h3>
-            <img src="./assets/RAMITO-23.jpg" alt="ramito-imagen-organica"  class="ramito-imagen-organica">
-        </div>
+    <div class="organica-column">
+      <h3>Orgánica <br> por naturaleza</h3>
+      <img src="./assets/RAMITO-23.jpg" alt="ramito-imagen-organica" class="ramito-imagen-organica">
     </div>
-
+  </div>
 </section>
+
 
 <section class="section-tempranillo">
     <div>   

@@ -1,0 +1,188 @@
+.ramito-violet-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+
+.ramito-violet-container-header .desktop-menu {
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5em;
+    width: 900px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    height: 100%;
+    padding: 30px 0px;
+}
+
+.ramito-violet-container-header .mobile-menu {
+    display: none;
+
+}
+
+
+.ramito-violet-container-header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.ramito-violet-container-header ul li a:hover {
+    border-bottom: 4px solid white;
+    font-weight: 700;
+    padding: 28px 0px;
+}
+
+.ramito-video-container-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ramito-violet-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ramito-violet-main-text {
+    padding: 100px 0px;
+    margin-bottom: 20px;
+}
+
+.ramito-violet-container p {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.9em;
+    width: 800px;
+    text-align: center;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 767px) {
+
+    /* Header styles */
+    .ramito-violet-container-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+    }
+
+    .ramito-violet-container-header .ramito-logo-blanco {
+        width: 100px;
+        margin: 0;
+    }
+
+    .ramito-violet-container-header .desktop-menu {
+        display: none;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon {
+        display: block;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon label {
+        display: block;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon label span {
+        display: block;
+        height: 3px;
+        width: 25px;
+        margin-bottom: 5px;
+        background: white;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon input[type="checkbox"] {
+        display: none;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon input[type="checkbox"]:checked+label span:nth-of-type(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon input[type="checkbox"]:checked+label span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon input[type="checkbox"]:checked+label span:nth-of-type(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .ramito-violet-container-header .mobile-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: #333366;
+        z-index: 99;
+        height: 300px;
+    }
+
+    .ramito-violet-container-header .mobile-menu li {
+        list-style: none;
+        text-align: center;
+        padding: 15px 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .ramito-violet-container-header .mobile-menu li:last-of-type {
+        border-bottom: none;
+    }
+
+    .ramito-violet-container-header .mobile-menu li a {
+        color: white;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Sen', sans-serif;
+    }
+
+    .ramito-violet-container-header .mobile-menu-icon input[type="checkbox"]:checked~.mobile-menu {
+        display: flex;
+    }
+
+    /* Main text styles */
+        .ramito-violet-main-text  {
+            width: 300px;
+        }
+
+
+    .ramito-violet-main-text p {
+        font-size: 1.2em;
+        text-align: justify;
+        margin: 20px 15px;
+    }
+
+    /* Tempranillo section styles */
+    .tempranillo-inner-section {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .tempranillo-inner-section img {
+        margin: 0 auto;
+    }
+
+    .tempranillo-inner-section .organica-column {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

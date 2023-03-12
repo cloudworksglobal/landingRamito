@@ -24,71 +24,6 @@
     flex-direction: column;
 }
 
-#nav-icon1 {
-    display: none;
-}
-
-.ramito-violet-container-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 30px;
-
-}
-
-.ramito-violet-container-header ul {
-    display: flex;
-    list-style: none;
-    color: white;
-    align-items: center;
-    justify-content: end;
-    gap: 30px;
-    font-family: 'Sen', sans-serif;
-    font-size: 1.5em;
-    width: 900px;
-    text-transform: uppercase;
-    border-bottom: 1px solid white;
-    text-decoration: none;
-    height: 100%;
-    padding: 30px 0px;
-}
-
-
-
-.ramito-violet-container-header ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.ramito-violet-container-header ul li a:hover {
-    border-bottom: 4px solid white;
-    font-weight: 700;
-    padding: 28px 0px;
-}
-
-.ramito-video-container-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.ramito-violet-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.ramito-violet-main-text {
-    padding: 100px 0px;
-    margin-bottom: 20px;
-}
-
-.ramito-violet-container p {
-    color: white;
-    font-family: 'Sen', sans-serif;
-    font-size: 1.9em;
-    width: 800px;
-    text-align: center;
-}
 
 .organica-column {
     position: relative;
@@ -347,9 +282,9 @@
     }
 
 
-    .ramito-violet-container-header ul {
+    /* .ramito-violet-container-header ul {
         display: none;
-    }
+    } */
 
     .ramito-logo-blanco {
         height: 20px;
@@ -421,7 +356,9 @@
         height: 300px;
     }
 
-    .imagen-detalle-flores, .ramito-imagen-botella, .imagen-detalle-flores-rosado {
+    .imagen-detalle-flores,
+    .ramito-imagen-botella,
+    .imagen-detalle-flores-rosado {
         display: none;
     }
 }
