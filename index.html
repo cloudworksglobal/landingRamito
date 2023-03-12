@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="scroll.css">
+
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>  
 
@@ -49,12 +53,18 @@
   </div>
   <div class="tempranillo-inner-section">
     <div>
-      <img src="./assets/ramito_verdejo.png" alt="ramito-imagen-organica" class="ramito-imagen-botella">
+      <img src="./assets/ramito_verdejo.png" alt="ramito-imagen-organica" class="ramito-imagen-botella" data-aos="fade-in">
       <img src="./assets/flowers.png" alt="detalle-flores" class="imagen-detalle-flores">
     </div>
-    <div class="organica-column">
+    <div class="organica-column" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="top-center">
       <h3>Orgánica <br> por naturaleza</h3>
-      <img src="./assets/RAMITO-23.jpg" alt="ramito-imagen-organica" class="ramito-imagen-organica">
+      <img src="./assets/RAMITO-23.jpg" alt="ramito-imagen-organica" class="ramito-imagen-organica" 
     </div>
   </div>
 </section>
@@ -78,13 +88,19 @@
     <p>Año: 2021 </p>
 
     </div>
-    <img src="./assets/flowers.png" alt="detalle-flores" class="imagen-detalle-flores-rosado">
+    <img src="./assets/flowers.png" alt="detalle-flores" class="imagen-detalle-flores-rosado"  data-aos="fade-in">
 
 </section>
 
 <section class="section-bobal-rosado">
     <div class="section-bobal-rosado-white">
-        <img src="./assets/RAMITO-3.jpg" alt="" class="image-ramito">
+        <img src="./assets/RAMITO-3.jpg" alt="" class="image-ramito" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="top-center">>
     </div>
     <div class="section-bobal-rosado-red">
         <div class="rosado-texto-wrapper">
@@ -116,7 +132,13 @@
 
     </div>
     <div class="imagen-barco">
-        <img src="./assets/RAMITOS-1.jpg" alt="" class="image-navegar">
+        <img src="./assets/RAMITOS-1.jpg" alt="" class="image-navegar" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="top-center">>
 
     </div>
 </section>
@@ -159,8 +181,10 @@
 
 </section>
 
-
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
     
 </body>
