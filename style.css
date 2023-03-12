@@ -29,6 +29,11 @@
     position: relative;
 }
 
+.ramito-organic-mobile-title {
+    display: none;
+
+}
+
 .ramito-violet-container h3 {
     color: white;
     font-family: 'Sen', sans-serif;
@@ -93,7 +98,6 @@
     width: 300px;
     font-size: 18px;
     color: #333366;
-
 }
 
 /* Bobal Rosaro Section */
@@ -301,9 +305,7 @@
         padding: 0px 30px;
     }
 
-    .section-tempranillo h3 {
-        font-size: 20px;
-    }
+
 
     .ramito-violet-container-header ul {
         flex-direction: column;
@@ -312,7 +314,25 @@
 
     .section-tempranillo {
         grid-template-columns: 1fr;
-        place-items: normal;
+        background-color: #333366;
+    }
+
+    .section-tempranillo h3 {
+        font-size: 40px;
+        margin: 0;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+        letter-spacing: -3px;
+        padding: 30px;
+    }
+
+    .section-tempranillo p {
+        width: 100%;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding: 0px 30px;
     }
 
     .tempranillo-inner-section {
@@ -321,6 +341,10 @@
 
     .section-bobal-rosado {
         grid-template-columns: 1fr;
+    }
+
+    .section-bobal-rosado-white {
+        padding-top: 0px;
     }
 
     .section-bobal-rosado-red {
@@ -334,7 +358,9 @@
 
     .image-ramito {
         position: relative;
-        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
     }
 
     .section-navegar .image-navegar {
@@ -346,10 +372,18 @@
         grid-template-columns: 1fr;
     }
 
-    .ramito-violet-container h3 {
+    .ramito-organic-mobile-title {
+        display: block;
         position: relative;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 30px;
+        color: white;
+        text-align: center;
+
+    }
+
+    .ramito-violet-container h3 {
+        display: none;
     }
 
     .ramito-imagen-botella {
