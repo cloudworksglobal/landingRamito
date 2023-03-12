@@ -286,3 +286,69 @@
     height: 110vh;
     overflow: hidden;
 }
+
+@media screen and (max-width: 760px) {
+    .ramito-video-container-logo {
+        height: 20px;
+    }
+
+    .ramito-video-container {
+        height: auto;
+    }
+
+    .ramito-logo-blanco {
+        height: 20px;
+    }
+
+    .ramito-violet-container p {
+        font-size: 1em;
+        width: auto;
+    }
+
+    .section-tempranillo h3 {
+        font-size: 20px;
+    }
+
+    .ramito-violet-container-header ul {
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    .section-tempranillo {
+        grid-template-columns: 1fr;
+    }
+
+    .tempranillo-inner-section {
+        grid-template-columns: 1fr;
+    }
+
+    .section-bobal-rosado {
+        grid-template-columns: 1fr;
+    }
+
+    .section-bobal-rosado-red {
+        padding-left: 0px;
+    }
+
+    .image-ramito {
+        position: relative;
+        height: 300px;
+    }
+
+    .section-navegar .image-navegar {
+        height: 300px;
+    }
+
+    .section-verdeo-sauvignon,
+    .section-raices-ibericas {
+        grid-template-columns: 1fr;
+    }
+
+    .ramito-violet-container h3 {
+        position: relative;
+    }
+
+    .ramito-imagen-botella {
+        height: 300px;
+    }
+}
