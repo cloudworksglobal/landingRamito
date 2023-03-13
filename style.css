@@ -4,7 +4,7 @@
     font-family: 'Sen', sans-serif;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .ramito-video-container {
@@ -313,7 +313,7 @@
         width: auto;
     }
 
-    ..ramito-violet-wrapper {
+    .ramito-violet-wrapper {
         display: flex;
         justify-content: center;
         padding: 0px 30px;
@@ -470,7 +470,7 @@
 .footer-global {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .logo-ramito-blanco {
