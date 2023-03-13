@@ -150,6 +150,7 @@
 .section-navegar .imagen-barco {
     display: flex;
     justify-content: end;
+    padding-top: 15px;
 }
 
 .section-navegar .image-navegar {
@@ -175,6 +176,19 @@
 .section-verdeo-sauvignon .image-navegar {
     height: 900px;
 }
+
+.section-verdeo-sauvignon h3 {
+    position: relative;
+    bottom: 160px;
+    left: 5px;
+}
+
+.section-verdeo-sauvignon p {
+    position: relative;
+    bottom: 80px;
+    left: 5px;
+}
+
 
 .logo-ramito-wrapper {
     display: flex;
@@ -443,4 +457,26 @@
     .imagen-detalle-flores-rosado {
         display: none;
     }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.footer-global {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-ramito-blanco {
+    width: 186px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
